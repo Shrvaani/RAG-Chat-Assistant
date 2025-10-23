@@ -6,7 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
 from langchain_community.document_loaders import PyMuPDFLoader, PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.text_splitter import RecursiveCharacterTextSplitter
 from supabase import create_client
 from pinecone import Pinecone, ServerlessSpec
 
