@@ -46,9 +46,9 @@ h1{background:var(--grad)!important;-webkit-background-clip:text!important;-webk
 font-weight:800!important;font-size:2rem!important;text-align:center!important;margin-top:-2rem!important;margin-bottom:0.5rem!important;}
 p.desc{text-align:center!important;color:#6b7280!important;margin-top:-20px!important;margin-bottom:0.5rem!important;}
 .stChatMessage[data-testid="assistant-message"] .stMarkdown{
-background:#f3f4f6;border-left:4px solid #1e3a8a;border-radius:var(--radius);padding:0.7rem;}
+background:#f3f4f6;border-left:4px solid #1e3a8a;border-radius:var(--radius);padding:0.7rem;font-size:0.9rem!important;line-height:1.5!important;}
 .stChatMessage[data-testid="user-message"] .stMarkdown{
-background:#f0f4ff;border-right:4px solid #1e40af;border-radius:var(--radius);padding:0.7rem;}
+background:#f0f4ff;border-right:4px solid #1e40af;border-radius:var(--radius);padding:0.7rem;font-size:0.9rem!important;line-height:1.5!important;}
 .main .block-container{padding-top:0rem!important;padding-bottom:0rem!important;}
 .stApp{padding-top:0rem!important;}
 div[data-testid="stHeader"]{display:none!important;}
